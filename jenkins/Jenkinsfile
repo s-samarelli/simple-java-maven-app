@@ -1,5 +1,5 @@
 pipeline {
-    agent 
+    agent any
     environment {
         MAVEN_HOME = "/opt/apache-maven-3.9.8"
         PATH = "PATH=$PATH:$MAVEN_HOME/bin"
